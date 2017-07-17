@@ -1,7 +1,7 @@
 {
   "name": "stop-if",
   "description": "An assert statement that throws an error if true. Does not run in production",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "license": "MIT",
   "keywords": ["assert", "expect", "error"]

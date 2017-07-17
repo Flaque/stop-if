@@ -16,6 +16,7 @@ function stopIf(problem, message = "") {
   if (isRunningInProduction()) return;
 
   if (problem) {
+    console.error(message);
     throw new StopIfError(message);
   }
 }
