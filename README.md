@@ -28,7 +28,7 @@ $ yarn add stop-if
 import stopIf from 'stop-if';
 
 function addToList(item) {
-    stopIf(list == undefined)
+    stopIf(list === undefined)
     list.add(item)
 }
 ```
