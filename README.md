@@ -10,6 +10,18 @@ then `stop-if` will do nothing.
 
 The goal of `stop-if` is to catch bugs early without ever risking uncaught production errors. 
 
+## Install
+
+With npm
+``` bash
+$ npm install --save stop-if
+```
+
+With yarn
+``` bash 
+$ yarn add stop-if
+```
+
 ## Example
 
 ``` js
