@@ -1,8 +1,9 @@
 const stopIf = require("./index.js");
+const StopIfError = require("./error.js");
 
 describe("stopIf", () => {
   test("it will throw an error if true", () => {
-    expect(() => stopIf(true)).toThrow();
+    expect(() => stopIf(true)).toThrow(StopIfError);
   });
 
   test("it will not throw an error if true", () => {

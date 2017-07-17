@@ -21,6 +21,12 @@ function addToList(item) {
 }
 ```
 
+You can also add a message if you would like:
+
+``` js 
+stopIf(foo, "Fee fi fo fum, I smell the code of a hum-ity-dum.");
+```
+
 ## Why is this not called `assert`?
 
 Javascript testing frameworks frequently use terms like `assert` or `expect` to prove a statement. `stopIf` is named differently to avoid any confusion with these sorts of statements.
