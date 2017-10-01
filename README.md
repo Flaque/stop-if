@@ -1,3 +1,9 @@
+# Hey You! Don't use this library 
+
+It already exists in the form of [invariant](https://github.com/zertosh/invariant). Didn't realize that at the time. 
+
+----
+
 # stop-if
 
 `stop-if` is a tiny function that fills the need of an assert statement in javascript. However, if the function is run in a production environment:
